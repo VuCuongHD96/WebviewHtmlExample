@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "mobiorichnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/VuCuongHD96/MobioRichNotification",
+      "state" : {
+        "branch" : "create_swift_package",
+        "revision" : "6497cabca09b02d663c68869e4c6a726e06ca0c9"
+      }
+    }
+  ],
+  "version" : 2
+}

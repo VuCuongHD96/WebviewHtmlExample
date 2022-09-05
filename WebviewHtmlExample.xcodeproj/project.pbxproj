@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40D769E28C6588700C8777A /* MobioRichNotification in Frameworks */ = {isa = PBXBuildFile; productRef = A40D769D28C6588700C8777A /* MobioRichNotification */; };
 		A4EAD46C28B66CE30073818E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EAD46B28B66CE30073818E /* AppDelegate.swift */; };
 		A4EAD46E28B66CE30073818E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EAD46D28B66CE30073818E /* SceneDelegate.swift */; };
 		A4EAD47028B66CE30073818E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EAD46F28B66CE30073818E /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40D769E28C6588700C8777A /* MobioRichNotification in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = WebviewHtmlExample;
+			packageProductDependencies = (
+				A40D769D28C6588700C8777A /* MobioRichNotification */,
+			);
 			productName = WebviewHtmlExample;
 			productReference = A4EAD46828B66CE30073818E /* WebviewHtmlExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = A4EAD45F28B66CE30073818E;
+			packageReferences = (
+				A40D769C28C6588700C8777A /* XCRemoteSwiftPackageReference "MobioRichNotification" */,
+			);
 			productRefGroup = A4EAD46928B66CE30073818E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -356,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A40D769C28C6588700C8777A /* XCRemoteSwiftPackageReference "MobioRichNotification" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VuCuongHD96/MobioRichNotification";
+			requirement = {
+				branch = create_swift_package;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A40D769D28C6588700C8777A /* MobioRichNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A40D769C28C6588700C8777A /* XCRemoteSwiftPackageReference "MobioRichNotification" */;
+			productName = MobioRichNotification;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4EAD46028B66CE30073818E /* Project object */;
 }
