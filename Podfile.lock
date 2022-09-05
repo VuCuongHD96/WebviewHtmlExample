@@ -1,0 +1,21 @@
+PODS:
+  - MobioRichNotification (0.0.1)
+
+DEPENDENCIES:
+  - MobioRichNotification (from `https://github.com/VuCuongHD96/MobioRichNotification`)
+
+EXTERNAL SOURCES:
+  MobioRichNotification:
+    :git: https://github.com/VuCuongHD96/MobioRichNotification
+
+CHECKOUT OPTIONS:
+  MobioRichNotification:
+    :commit: e91a12bb0002cc608f8c7ba5ac36e873cd0a5a65
+    :git: https://github.com/VuCuongHD96/MobioRichNotification
+
+SPEC CHECKSUMS:
+  MobioRichNotification: 4b26d20a7856bcf633be00dc0fa084da55edf7dc
+
+PODFILE CHECKSUM: 8988eb7d13574a91b420ff8b0bfa127dce24d9e4
+
+COCOAPODS: 1.11.3

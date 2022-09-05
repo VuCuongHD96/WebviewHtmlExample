@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E3801673A46ACF6342B2F29347F801 /* MobioRichNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7221CB604A75504BD8B90FB5E1113F /* MobioRichNotification-dummy.m */; };
+		35F28B9609CBE7B4E9C4291D81C3CA5F /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136218EE8CE51FC9848EB46170B3CBD3 /* Calculator.swift */; };
+		770922CB80A4732A16ADFD6529DB3412 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8BACF1FB768AB82159686D1D56582F70 /* MobioRichNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD79B56981BB4E8A79DC1BE6D819B65 /* MobioRichNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E3695DADBA7497AFCD14030C88768D9 /* Pods-WebviewHtmlExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5259F9B7E9A8A04C8872C337202B5B /* Pods-WebviewHtmlExample-dummy.m */; };
+		A6000496C5B1FF58F51AF1FEE39B7F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B38D928E6793A35E7E8E05711CD08A0A /* RichNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C4B56CA175A8226AC874F50F717079 /* RichNotification.swift */; };
+		E3A37D1FFCA922915E0EEAB0C6F1CD55 /* Pods-WebviewHtmlExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AE1A9F924ECC172D88F10998977C47 /* Pods-WebviewHtmlExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		123FBB794726C4232580C0514C2D4AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0D479E2693F349D3B7A1458B7BACF6;
+			remoteInfo = MobioRichNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B6CF02B5AD4CB82FF09C2372754627 /* Pods-WebviewHtmlExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WebviewHtmlExample.modulemap"; sourceTree = "<group>"; };
+		00C344F953A2507AC82A2B7BF418FB41 /* MobioRichNotification-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MobioRichNotification-Info.plist"; sourceTree = "<group>"; };
+		136218EE8CE51FC9848EB46170B3CBD3 /* Calculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calculator.swift; path = Source/Calculator.swift; sourceTree = "<group>"; };
+		2BD79B56981BB4E8A79DC1BE6D819B65 /* MobioRichNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobioRichNotification-umbrella.h"; sourceTree = "<group>"; };
+		35C04AED9D56B299DFFA088CB253D2DB /* MobioRichNotification */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MobioRichNotification; path = MobioRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3836E931CD3EBBA38329C65461A31618 /* Pods-WebviewHtmlExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebviewHtmlExample.debug.xcconfig"; sourceTree = "<group>"; };
+		38AE1A9F924ECC172D88F10998977C47 /* Pods-WebviewHtmlExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WebviewHtmlExample-umbrella.h"; sourceTree = "<group>"; };
+		43A86F1ED79F3696444C864DB8306EA9 /* Pods-WebviewHtmlExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WebviewHtmlExample"; path = Pods_WebviewHtmlExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E0B2C6DC8B7A374B4B9C9CC9F829E8 /* MobioRichNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobioRichNotification.release.xcconfig; sourceTree = "<group>"; };
+		59345C18F6A61E54D7512B12746A5F61 /* MobioRichNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobioRichNotification.debug.xcconfig; sourceTree = "<group>"; };
+		5C3CD6BC13833174664909BA6EB8FAD0 /* MobioRichNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobioRichNotification-prefix.pch"; sourceTree = "<group>"; };
+		71490C51C1E508729B3B09458CD44F1B /* Pods-WebviewHtmlExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebviewHtmlExample.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8357E1B933855B6B4E0B2F98123F224F /* Pods-WebviewHtmlExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebviewHtmlExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E0E79CC57616F1D2581211A401AEB2A /* MobioRichNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MobioRichNotification.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B53F5C42DFE20F1C5C0C8398DE128C52 /* Pods-WebviewHtmlExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebviewHtmlExample-Info.plist"; sourceTree = "<group>"; };
+		C6114481E30A92AB22551B4ABD03EB79 /* Pods-WebviewHtmlExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebviewHtmlExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC7221CB604A75504BD8B90FB5E1113F /* MobioRichNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MobioRichNotification-dummy.m"; sourceTree = "<group>"; };
+		D1C4B56CA175A8226AC874F50F717079 /* RichNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RichNotification.swift; path = Source/RichNotification.swift; sourceTree = "<group>"; };
+		ED5259F9B7E9A8A04C8872C337202B5B /* Pods-WebviewHtmlExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebviewHtmlExample-dummy.m"; sourceTree = "<group>"; };
+		EF23CAEEF0E539942364996B38BA0385 /* Pods-WebviewHtmlExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebviewHtmlExample-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C60B6C2EC8AE14BDE4F1C8A872F181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770922CB80A4732A16ADFD6529DB3412 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563F0E9457542459B22DDF560208431A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6000496C5B1FF58F51AF1FEE39B7F3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD22A65D007ED63E6229FEAA50014D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B0EE61A67FBBADB076A152BC9A8E6 /* MobioRichNotification */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20B92B7EBDC572C9816DF3A2046D6327 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0E79CC57616F1D2581211A401AEB2A /* MobioRichNotification.modulemap */,
+				CC7221CB604A75504BD8B90FB5E1113F /* MobioRichNotification-dummy.m */,
+				00C344F953A2507AC82A2B7BF418FB41 /* MobioRichNotification-Info.plist */,
+				5C3CD6BC13833174664909BA6EB8FAD0 /* MobioRichNotification-prefix.pch */,
+				2BD79B56981BB4E8A79DC1BE6D819B65 /* MobioRichNotification-umbrella.h */,
+				59345C18F6A61E54D7512B12746A5F61 /* MobioRichNotification.debug.xcconfig */,
+				49E0B2C6DC8B7A374B4B9C9CC9F829E8 /* MobioRichNotification.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MobioRichNotification";
+			sourceTree = "<group>";
+		};
+		2866BCE284DAC56C5E16E5D2458BD1ED /* Pods-WebviewHtmlExample */ = {
+			isa = PBXGroup;
+			children = (
+				00B6CF02B5AD4CB82FF09C2372754627 /* Pods-WebviewHtmlExample.modulemap */,
+				8357E1B933855B6B4E0B2F98123F224F /* Pods-WebviewHtmlExample-acknowledgements.markdown */,
+				C6114481E30A92AB22551B4ABD03EB79 /* Pods-WebviewHtmlExample-acknowledgements.plist */,
+				ED5259F9B7E9A8A04C8872C337202B5B /* Pods-WebviewHtmlExample-dummy.m */,
+				EF23CAEEF0E539942364996B38BA0385 /* Pods-WebviewHtmlExample-frameworks.sh */,
+				B53F5C42DFE20F1C5C0C8398DE128C52 /* Pods-WebviewHtmlExample-Info.plist */,
+				38AE1A9F924ECC172D88F10998977C47 /* Pods-WebviewHtmlExample-umbrella.h */,
+				3836E931CD3EBBA38329C65461A31618 /* Pods-WebviewHtmlExample.debug.xcconfig */,
+				71490C51C1E508729B3B09458CD44F1B /* Pods-WebviewHtmlExample.release.xcconfig */,
+			);
+			name = "Pods-WebviewHtmlExample";
+			path = "Target Support Files/Pods-WebviewHtmlExample";
+			sourceTree = "<group>";
+		};
+		3B1B0EE61A67FBBADB076A152BC9A8E6 /* MobioRichNotification */ = {
+			isa = PBXGroup;
+			children = (
+				136218EE8CE51FC9848EB46170B3CBD3 /* Calculator.swift */,
+				D1C4B56CA175A8226AC874F50F717079 /* RichNotification.swift */,
+				20B92B7EBDC572C9816DF3A2046D6327 /* Support Files */,
+			);
+			name = MobioRichNotification;
+			path = MobioRichNotification;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9876ED5DAA7A70EF97E733DA9AAF24E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C04AED9D56B299DFFA088CB253D2DB /* MobioRichNotification */,
+				43A86F1ED79F3696444C864DB8306EA9 /* Pods-WebviewHtmlExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1AD22A65D007ED63E6229FEAA50014D2 /* Pods */,
+				9876ED5DAA7A70EF97E733DA9AAF24E1 /* Products */,
+				FE7D81622AEB83E12D5F053476EC6871 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE7D81622AEB83E12D5F053476EC6871 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2866BCE284DAC56C5E16E5D2458BD1ED /* Pods-WebviewHtmlExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B4A00F543D292B6ACD4F21C990F66E3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3A37D1FFCA922915E0EEAB0C6F1CD55 /* Pods-WebviewHtmlExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06ABF182FF04636FD5FD8DEF20E1A2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BACF1FB768AB82159686D1D56582F70 /* MobioRichNotification-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C0D479E2693F349D3B7A1458B7BACF6 /* MobioRichNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D77FFA40AB579D41B862FB3C55B39B /* Build configuration list for PBXNativeTarget "MobioRichNotification" */;
+			buildPhases = (
+				D06ABF182FF04636FD5FD8DEF20E1A2B /* Headers */,
+				CEE60289D9C501714FBF61FCE68A9A0F /* Sources */,
+				563F0E9457542459B22DDF560208431A /* Frameworks */,
+				C63E683A89B46592F030759C22829B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobioRichNotification;
+			productName = MobioRichNotification;
+			productReference = 35C04AED9D56B299DFFA088CB253D2DB /* MobioRichNotification */;
+			productType = "com.apple.product-type.framework";
+		};
+		DECC914F3A72AC894AE13898118F07E5 /* Pods-WebviewHtmlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EB36A3C5E0F76D4102F18EF40896C7 /* Build configuration list for PBXNativeTarget "Pods-WebviewHtmlExample" */;
+			buildPhases = (
+				B4A00F543D292B6ACD4F21C990F66E3F /* Headers */,
+				51974563B414815A677C172667457092 /* Sources */,
+				22C60B6C2EC8AE14BDE4F1C8A872F181 /* Frameworks */,
+				49C26A54D04AD121E181A0592AD414E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42EEB6161C2D16805B578D66FBDF7057 /* PBXTargetDependency */,
+			);
+			name = "Pods-WebviewHtmlExample";
+			productName = Pods_WebviewHtmlExample;
+			productReference = 43A86F1ED79F3696444C864DB8306EA9 /* Pods-WebviewHtmlExample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9876ED5DAA7A70EF97E733DA9AAF24E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0D479E2693F349D3B7A1458B7BACF6 /* MobioRichNotification */,
+				DECC914F3A72AC894AE13898118F07E5 /* Pods-WebviewHtmlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C26A54D04AD121E181A0592AD414E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63E683A89B46592F030759C22829B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51974563B414815A677C172667457092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3695DADBA7497AFCD14030C88768D9 /* Pods-WebviewHtmlExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE60289D9C501714FBF61FCE68A9A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F28B9609CBE7B4E9C4291D81C3CA5F /* Calculator.swift in Sources */,
+				15E3801673A46ACF6342B2F29347F801 /* MobioRichNotification-dummy.m in Sources */,
+				B38D928E6793A35E7E8E05711CD08A0A /* RichNotification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42EEB6161C2D16805B578D66FBDF7057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MobioRichNotification;
+			target = 6C0D479E2693F349D3B7A1458B7BACF6 /* MobioRichNotification */;
+			targetProxy = 123FBB794726C4232580C0514C2D4AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199F71EBAC78AAC0F0A5BBE4BAA82749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59345C18F6A61E54D7512B12746A5F61 /* MobioRichNotification.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobioRichNotification/MobioRichNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobioRichNotification/MobioRichNotification-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobioRichNotification/MobioRichNotification.modulemap";
+				PRODUCT_MODULE_NAME = MobioRichNotification;
+				PRODUCT_NAME = MobioRichNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28972A0C3CAD140B8B9ADBC004065F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71490C51C1E508729B3B09458CD44F1B /* Pods-WebviewHtmlExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebviewHtmlExample/Pods-WebviewHtmlExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebviewHtmlExample/Pods-WebviewHtmlExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A26593916778B6963F6C3E7524ACA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3836E931CD3EBBA38329C65461A31618 /* Pods-WebviewHtmlExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WebviewHtmlExample/Pods-WebviewHtmlExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WebviewHtmlExample/Pods-WebviewHtmlExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		934ED2B84836A780113D1F63484628B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E41639B9297F90D24D0FD7E4FCC83F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E0B2C6DC8B7A374B4B9C9CC9F829E8 /* MobioRichNotification.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MobioRichNotification/MobioRichNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MobioRichNotification/MobioRichNotification-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MobioRichNotification/MobioRichNotification.modulemap";
+				PRODUCT_MODULE_NAME = MobioRichNotification;
+				PRODUCT_NAME = MobioRichNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934ED2B84836A780113D1F63484628B2 /* Debug */,
+				92486E5E72E54FAF60E1A7D022C21B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D77FFA40AB579D41B862FB3C55B39B /* Build configuration list for PBXNativeTarget "MobioRichNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199F71EBAC78AAC0F0A5BBE4BAA82749 /* Debug */,
+				E41639B9297F90D24D0FD7E4FCC83F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EB36A3C5E0F76D4102F18EF40896C7 /* Build configuration list for PBXNativeTarget "Pods-WebviewHtmlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A26593916778B6963F6C3E7524ACA0A /* Debug */,
+				28972A0C3CAD140B8B9ADBC004065F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

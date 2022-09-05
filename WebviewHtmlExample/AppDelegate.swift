@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MobioRichNotification
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
